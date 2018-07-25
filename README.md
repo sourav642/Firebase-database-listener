@@ -32,7 +32,7 @@ User Information node just contains a copy of the information present in Users n
 
 3. The user can now make any updates but it **must be in the 'Users' node only following the format specified above**.User Information node will automatically get populated.
 
-4. After updation user is asked to validate the email and send the email by logging in with his/her email id and password.
+4. After updation user is asked to validate the email and send the email by logging in with his/her email id and password.The sender's email account **must be in gmail.**
 
 5. In case the user doesn't want to send an email he/she must type 'N' or 'n' to get out of email service.
 
