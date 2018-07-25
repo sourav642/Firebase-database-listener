@@ -6,17 +6,17 @@ This code uses pyrebase:an efficient python module for Firebase, and smtplib for
 # Pre requirements:
 1. A gmail account.
 
-2. Enable this:https://www.google.com/settings/security/lesssecureapps
+2. Enable this: https://www.google.com/settings/security/lesssecureapps
 
-3. Open this link and click continue:https://accounts.google.com/DisplayUnlockCaptcha
+3. Open this link and click continue: https://accounts.google.com/DisplayUnlockCaptcha
 
 Steps 2 and 3 may take upto 10 minutes to process.Please be patient :)
 
 
 # Brief Description:
-Link to the data base:https://user-database-c5688.firebaseio.com/
+Link to the data base: https://user-database-c5688.firebaseio.com/
 
-This is a real time database consisting of two nodes 'Users' and 'User Information'.Informations are stored in Users in the following way:
+This is a real time database consisting of two nodes 'Users' and 'User Information'.Informations are stored in 'Users' in the following way:
 
 =>A serial number(starting from 1)
 
@@ -24,10 +24,10 @@ This is a real time database consisting of two nodes 'Users' and 'User Informati
 
 'User Information' node just contains a copy of the information present in 'Users' node at any given time.
 
-**Important**: Both the nodes conatin a 'Default' key and **it must not be deleted**.In case it gets deleted the code will automatically create one.
+**Important**: Both the nodes contain a **'Default'** key and **it must not be deleted**.In case it gets deleted the code will automatically create one.
 
 # Tutorial:
-1. The code is present in the src folder and is written in Python 3.6.Please insert the **api key** or to get the key mail me at:sac642@gmail.com
+1. The code is present in the src folder and is written in Python 3.6.Please insert the **api key** or to get the key mail me at: sac642@gmail.com
 
 2. Upon execution the listener will start running.(use any python ide or python shell)
 
@@ -37,7 +37,7 @@ This is a real time database consisting of two nodes 'Users' and 'User Informati
 
 5. In case the user doesn't want to send an email he/she must type 'N' or 'n' to cancel the prompt.
 
-6.Step 4 or 5 is essential as the session will still continue to run after user input and reccord any further changes made in the database and will also ask for sending emails again if the data is **sufficient**.The session can only be terminated manually by closing.
+6. Step 4 or 5 is essential as the session will still continue to run after user input and reccord any further changes made in the database and will also ask for sending emails again if the data is **sufficient**.The session can only be terminated manually by closing.
 
 7. For more details please see sample_output.txt
 
