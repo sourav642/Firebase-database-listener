@@ -3,7 +3,7 @@ A simple python script which listens to any updates to a real time data base in 
 
 
 # Pre requirements:
-1. A gmail account
+1. A gmail account.
 
 2. Enable ths:https://www.google.com/settings/security/lesssecureapps
 
@@ -23,7 +23,7 @@ This is a real time database consisting of two nodes 'Users' and 'User Informati
 
 User Information node just contains a copy of the information present in Users node at any given time.
 
-**Important**:Both the nodes conatin a 'Default' key and **it must not be deleted**.In case it gets deleted the code will automatically create one.
+**Important**: Both the nodes conatin a 'Default' key and **it must not be deleted**.In case it gets deleted the code will automatically create one.
 
 # Tutorial:
 1. The code is present in the src folder and is written in Python 3.6.Please insert the **api key** or to get the key mail me at:sac642@gmail.com
@@ -36,7 +36,7 @@ User Information node just contains a copy of the information present in Users n
 
 5. In case the user doesn't want to send an email he/she must type 'N' or 'n' to get out of email service.
 
-6. **Further modifications/updations are allowed only after he/she completes step 5.Emails can be sent after any update**
+6. **Further modifications/updations are allowed only after he/she completes step 5.Emails can be sent after any update.**
 
 7. The session will still continue to run after step 5 and reccord any further changes made.It can only be terminated manually.
 
