@@ -1,7 +1,8 @@
 # Firebase-database-listener
 A simple python script which listens to any updates to a real time data base in Fire base and sends email accordingly.
 
-This code is developed 'pyrebase'-an efficient python module for the Firebase api(https://pypi.org/project/Pyrebase/).
+The code uses 'pyrebase'-an efficient python module for the Firebase api.
+( https://pypi.org/project/Pyrebase/ )
 
 # Pre requirements:
 1. A gmail account.
@@ -40,7 +41,3 @@ This is a real time database consisting of two nodes 'Users' and 'User Informati
 6. Step 4 or 5 is essential as the session will still continue to run after user input and reccord any further changes made in the database and will also ask for sending emails again if the data is **sufficient**.The session can only be terminated manually by closing.
 
 7. For more details please see sample_output.txt
-
-
-Thank You.
-
