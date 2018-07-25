@@ -1,0 +1,23 @@
+Session is running....
+Data added/modified:
+user name: abc
+user email: abc@xyz.com
+
+Please verify the email id and ensure its correct.Once verifed press Y to send an email to the above id or N to quit: N
+Stopped Email service.
+Session is still running....
+Data added/modified:
+user name: Sourav
+user email: sourav_18@outlook.com
+
+Please verify the email id and ensure its correct.Once verifed press Y to send an email to the above id or N to quit: Y
+----LOGIN---
+
+Email id:
+sac642@gmail.com
+
+Password:
+***********
+
+Email sent successfully to sourav_18@outlook.com
+Session is still running...
