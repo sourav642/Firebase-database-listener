@@ -26,7 +26,7 @@ User Information node just contains a copy of the information present in Users n
 **Important**:Both the nodes conatin a 'Default' key and **it must not be deleted**.In case it gets deleted the code will automatically create one.
 
 # TUTORIAL
-1.The code is present in the src folder and is written in Python 3.6.Please insert the api key or to get the key mail me at:sac642@gamil.com
+1.The code is present in the src folder and is written in Python 3.6.Please insert the **api key** or to get the key mail me at:sac642@gmail.com
 
 2.Upon execution the listener will start running.(use any python ide or pyhton shell)
 
