@@ -3,7 +3,7 @@ import smtplib
 import re
 
 config = {
-  "apiKey": "AIzaSyBFdM-U7MYgeWmm4gLzlyDR70yOANkXoBQ",
+  "apiKey": "your api key",
   "authDomain":"user-database-c5688.firebaseapp.com",
   "databaseURL": "https://user-database-c5688.firebaseio.com",
   "storageBucket":"user-database-c5688.appspot.com"
